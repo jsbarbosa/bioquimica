@@ -19,6 +19,7 @@
 \documentclass[fleqn,10pt]{SelfArx}
 %\usepackage[superscript]{cite}
 \usepackage{wrapfig}
+\usepackage{multirow}
 %----------------------------------------------------------------------------------------
 %	ARTICLE INFORMATION
 %----------------------------------------------------------------------------------------
@@ -78,7 +79,7 @@
 	El último de estos métodos de análisis de componentes biológicos de muestras biológicas es la prueba con Ninhidrina, cuyo reactivo principal fue descubierto por el químico alemán Siegfried Ruhemann en 1910 \cite{ruhemann1910cxxxii, ruhemann1910ccxii}. La ninhidrina reacciona con el grupo amino de los aminoácidos para formar un producto de coloración morada, el cual es conocido como morado de Ruhemann. Puede ser usado tanto cualitativamente como cuantitativamente, siendo la ninhidrina utilizada para detectar glifosatos con espectroscopía Raman \cite{xu2018indirect}, para realizar secuenciación de péptidos \cite{friedman2004applications} y para determinar el sexo de una persona a partir de residuos encontrados en huellas dactilares \cite{brunelle2016new}. 
 	
 	Todos estos métodos varían en términos de especificidad y precisión, pero todos son útiles a la hora de determinar la presencia de los diversos compuestos que se desean encontrar en diferentes tejidos humanos y animales, por lo que el objetivo del presente es demostrar la presencia de diversas clases de carbohidratos, lípidos y proteínas en muestras biológicas y compararlas en función de su composición. 
-
+	
 \section{Secci\'on experimental}
 	\subsection{Preparación de las soluciones}
 		Se prepararon las soluciones como se describe a continuación:
@@ -96,7 +97,6 @@
 			\item \textbf{Ácido tricloroacético al 10 \%:} Se pesó 1 g de ácido tricloroacético y se llevó a 10 mL con agua.
 		\end{enumerate}
 	\subsection{Fraccionamiento del tejido}
-		
 		Se realizó el fraccionamiento de los órganos por grupos independientes siguiendo la \autoref{fig: fraccionamiento}. Los órganos estudiados de manera independiente por los grupos de laboratorio, incluyen: hígado de res, cerebro de res, hígado de pollo y corazón de pollo.
 		
 	\subsection{Pruebas de identificación}
@@ -123,9 +123,38 @@
 				\item A la segunda se le agregó 1 mL de la solución de ninhidrina y se calentó al baño María por 10 minutos.
 			\end{enumerate}
 
+	\input{carbohidratos.tex}
+	\input{lipidos.tex}
 \section{Resultados y Discusi\'on}
+	Según los resultados obtenidos para el análisis de carbohidratos, los cuales se muestran en la \autoref{tb: carbohidratos}, se pudo descartar la presencia de polisacáridos en la muestra, puesto que no se observó el cambio de coloración en la muestra a causa de la adición del Lugol. Lo anterior debido a que esta última es producto de la introducción del yodo, presente en el reactivo, en la estructura molecular de los polisacáridos, por lo que no es posible identificar monosacáridos por medio de esta prueba. Adicionalmente, los resultados obtenidos con la segunda muestra, luego del tratamiento con ácido clorhídrico, permiten confirmar la ausencia de polisacáridos en la misma, puesto que los enlaces glucosídicos se hidrolizan con facilidad por acción de ácidos como el ácido clorhídrico, al se un ácido prótico que promueve la hídrolisis de la unión covalente del enlace glucosídico de los carbohidratos presentes en la muestra, por lo que la ausencia de coloración es congruente con los resultados obtenidos anteriormente. 
+	
+	Sin embargo, como se mencionó anteriormente, la prueba con Lugol sólo permite la identificación o presencia de polisacáridos en una muestra, por lo que se llevó a cabo una tercera prueba por medio de la adición del reactivo de Molish. Se observó la formación de un anillo de color morado en la interfase de las dos fases distinguibles, puesto que en general los azúcares se deshidratan en presencia del ácido sulfúrico concentrado, promoviendo de esta manera la formación de compuestos furfúricos que reaccionan con el alfa naftol presente en el reactivo de Molish, causando la coloración observada; de manera que se puede confirmar la presencia de carbohidratos en la muestra. Adicionalmente, la falta de coloración del medio en la cuarta muestra nos permite confirmar la ausencia de azúcares reductores (esto sería teniendo en cuenta que reportaron mal los resultados y en realidad había una tenue coloración azul). Sin embargo, fue posible observar que los resultados diferían en otros grupos durante la experimentación, para los cuales el cambio de color variaba entre azul y verde, lo que se puede explicar porque los grupos reductores aldehídos de algunos azúcares reducen los iones de Cobre a Oxido Cuproso bajo la acción del calor y en medio alcalino, produciendo un cambio en el color del medio desde azul, pasando por verde, naranja y rojo, lo cual depende directamente de la concentración de sustancias reductoras en la muestra y para lo cual se interpreta el azul como negativo, el verde como la presencia de trazas y el amarillo, naranja y rojo como positivo. Cabe resaltar que existe una relación positiva entre los resultados de cada grupo, a pesar de diferir entre sí, por lo que se puede confirmar la ausencia de azúcares reductores en la muestra.
+	
+	Por otro lado, en cuanto a las pruebas realizadas para lípidos, las cuales se observan en la \autoref{tb: lipidos}, fue posible observar una congruencia general en los resultados obtenidos por todos los grupos. En el caso de la prueba de Salkowsky el anhídrido acético puede reaccionar con el colesterol y otros esteroles en presencia de ácidos fuertes, formando de esta manera un complejo verde-azul al reaccionar con el grupo hidroxilo del compuesto presente en la muestra, por otro lado, es posible determinar la presencia de \'acidos grasos en una muestra por medio de la adición de hidróxido de sodio para dar lugar a la saponificaci\'on de los mismos, lo cual da lugar a la formaci\'on de miscelas, las cuales dependiendo de su concentraci\'on pueden observarse como otra fase, con caracter\'isticas de viscosidad distintas a la fase acuosa, como reporta un grupo con h\'igado de pollo.
+	
+	\input{proteinas.tex}
+	
+	Finalmente, para las prote\'inas se obtuvieron los resultados que se muestran en la \autoref{tb: proteinas}. En particular, se puede observar que todas las pruebas de Biuret dieron positivas, esto se debe a que el cobre (II) en soluci\'on b\'asica reacciona con las aminas de los enlaces pept\'idicos, dando lugar a un complejo de coordinaci\'on, en donde los pares electr\'onicos libres del nitr\'ogeno forman enlaces de coordinaci\'on con el \'atomo de cobre que acepta la densidad electr\'onica, como se observa en el \autoref{sch: Biuret}. 
+	
+	\begin{scheme}[h]
+		\centering
+		\includegraphics[width=\linewidth]{Biuret}
+		\caption{Reacci\'on de Biuret.}
+		\label{sch: Biuret}
+	\end{scheme}
+
+	Respecto a la prueba con ninhidrina, tanto para el h\'igado de pollo, e h\'igado de res, los resultados se contradicen entre ellos. Si bien ambas pruebas son generales, para las prote\'inas se debe tener en cuenta, que en el caso de la ninhidrina, la reacci\'on ocurre \'unicamente con el residuo terminal de un polip\'eptido, espec\'ificamente con el grupo amino libre. La reacci\'on se muestra en el \autoref{sch: ninhidrina}, y procede de la siguiente manera: la ninhidrina oxida y desamina el amino\'acido, formando 2-amino-1,3-indandiona, la cual posteriormente reacciona con una nueva mol\'ecula de ninhidrina, dando lugar a la formaci\'on del crom\'oforo violeta de Rheumann's. Sin embargo, por ejemplo para el caso del cerebro de res, es posible que la reacci\'on haya tenido lugar inicialmente con prolina, puesto que a partir de este amino\'acido se obtiene un compuesto anaranjado.
+	
+	Una posible explicaci\'on al por qu\'e los resultados de la ninhidrina contradicen los de Biuret, se encuentra relacionada con la concentraci\'on de los crom\'oforos, dado que la prueba de Biuret puede reaccionar potencialmente con todos los enlaces pept\'idicos de la muestra, mientras que la ninhidrina \'unicamente reacciona una vez con cada polip\'eptido.
+	\begin{scheme}[h]
+		\centering
+		\includegraphics[width=\linewidth]{ninhydrin}
+		\caption{Reacci\'on de los amino\'acidos con la ninhidrina.}
+		\label{sch: ninhidrina}
+	\end{scheme}
 
 \section{Conclusiones}
+	Tengo una novia muy churra e inteligente. Salu2
 
 
 %----------------------------------------------------------------------------------------

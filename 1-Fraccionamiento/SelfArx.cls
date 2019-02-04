@@ -36,7 +36,7 @@
 %----------------------------------------------------------------------
 %	VARIOUS USEFUL PACKAGES
 %----------------------------------------------------------------------
-\RequirePackage[english,spanish]{babel} % Specify a different language here - english by default
+\RequirePackage[english,spanish, ,es-tabla]{babel} % Specify a different language here - english by default
 \selectlanguage{spanish}
 \RequirePackage{lipsum} % Required to insert dummy text. To be removed otherwise
 \RequirePackage[utf8]{inputenc}
