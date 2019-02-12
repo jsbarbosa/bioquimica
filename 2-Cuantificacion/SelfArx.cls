@@ -263,5 +263,5 @@ justification=raggedright]{caption}
 \RequirePackage{hyperref} % Required for hyperlinks
 \hypersetup{hidelinks,colorlinks,breaklinks=true,urlcolor=color2,citecolor=color1,linkcolor=color1,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
 
-\Authors{Gabriel Castro, Juan Barbosa $^\dagger$} % Authors
+\Authors{Jhoan Martínez, Juan Barbosa $^\dagger$} % Authors
 \affiliation{\textit{Departamento de Qu\'imica}. $^\dagger$\textit{Departamento de F\'isica}. Universidad de los Andes, Bogot\'a, Colombia.} % Author affiliation
