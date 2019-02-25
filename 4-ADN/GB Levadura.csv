@@ -1,0 +1,192 @@
+Samples,,Sample 1,,
+Sample Number,Ratio,Wavelength (nm),Abs,
+1,-1.505430698,299.9831848,0.1833428442,
+,,299.0045166,0.1915496737,
+,,297.9865723,0.2028543204,
+,,297.0077209,0.2159850746,
+,,295.989563,0.2299718261,
+,,295.0104675,0.2456424385,
+,,293.9920654,0.2668891847,
+,,293.0127258,0.289983511,
+,,291.9941406,0.3154245019,
+,,291.0145264,0.3383990228,
+,,289.9956665,0.366648525,
+,,289.0158997,0.3961345255,
+,,287.9968262,0.4355021119,
+,,287.0168152,0.4654479325,
+,,285.9974976,0.5059956908,
+,,285.0172729,0.5457087159,
+,,283.9977417,0.5939329267,
+,,283.0173035,0.6406959891,
+,,281.9974976,0.6917029023,
+,,281.0168762,0.7433642149,
+,,279.9968567,0.8075224161,
+,,279.0159607,0.8686870337,
+,,277.9957581,0.9378020167,
+,,277.014679,0.9974327683,
+,,275.9942322,1.057879925,
+,,275.0129089,1.123416185,
+,,273.9922485,1.188326597,
+,,273.0107727,1.259490728,
+,,271.9898987,1.32506609,
+,,271.0081482,1.38178122,
+,,269.9870605,1.45285964,
+,,269.0051575,1.516958475,
+,,267.9838257,1.58068645,
+,,267.0016785,1.622360349,
+,,266.0194397,1.661918879,
+,,264.9978333,1.715425014,
+,,264.0153809,1.745363355,
+,,262.9935303,1.767136931,
+,,262.0108948,1.784588933,
+,,260.9888306,1.811787486,
+,,260.0059814,1.831315994,
+,,258.9837341,1.834151745,
+,,258.0007019,1.827104449,
+,,257.0175476,1.822723269,
+,,255.9949951,1.804715753,
+,,255.0116425,1.792786956,
+,,253.9888916,1.751496315,
+,,253.0053558,1.722135544,
+,,251.9823761,1.693125486,
+,,250.998642,1.649424791,
+,,250.0148163,1.606451988,
+,,248.9915466,1.562494993,
+,,248.0075531,1.511573911,
+,,246.9840698,1.472653151,
+,,245.9998627,1.426508784,
+,,245.0155792,1.374731898,
+,,243.9918213,1.307354689,
+,,243.0073242,1.267845035,
+,,241.9833527,1.236343503,
+,,240.998703,1.196675062,
+,,240.0139465,1.170253873,
+,,238.9896851,1.138709188,
+,,238.0047455,1.119105339,
+,,236.9803162,1.107578874,
+,,235.9951935,1.106519103,
+,,235.0099792,1.10521245,
+,,233.98526,1.108516097,
+,,232.9998474,1.127570391,
+,,232.0143738,1.14578867,
+,,230.9893951,1.179656029,
+,,230.0037231,1.216152191,
+,,229.0179901,1.253513217,
+,,227.9927216,1.301141739,
+,,227.0067596,1.353495955,
+,,225.9813538,1.417299151,
+,,224.995224,1.495515823,
+,,224.0090485,1.577615261,
+,,222.9833527,1.676212192,
+,,221.9969788,1.795719862,
+,,221.0105438,1.925676942,
+,,219.9845734,2.096708298,
+,,218.9979706,2.265762806,
+,,218.0112915,2.43557024,
+,,216.9850159,2.591150761,
+,,215.9981689,2.761598825,
+,,215.0112305,2.919624567,
+,,213.9847412,2.933212519,
+,,212.9976349,3.048361301,
+,,212.0104675,3.323928595,
+,,210.9836884,3.288532734,
+,,209.9963684,3.312372446,
+,,209.0089417,3.323661566,
+,,207.9819489,3.282747507,
+,,206.9943542,3.33075285,
+,,206.0066986,3.343083143,
+,,205.0189362,3.460699558,
+,,203.9916229,3.292675018,
+,,203.0037231,3.313857079,
+,,202.0157623,3.229273081,
+,,200.9881744,3.271327257,
+,,200.0000458,3.033612728,
+
+Samples,
+Samples
+Collection Time: 2/25/2019 4:52:55 PM
+Operator Name  :
+RNA - DNA Estimation Version 5.0.0.999
+Parameter List :
+Report time  2/25/2019 4:52:55 PM
+Method
+Batch name  C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB - Levadura 3.BDN
+Application  RNA - DNA Estimation 5.0.0.999
+Operator
+Instrument  Cary 60
+Instrument version no.  2.00
+Ordinate Mode  Abs
+Ave Time (sec)  0.1000
+Replicates  OFF
+Wavelength 1 (nm)  260.0
+Wavelength 2 (nm)  280.0
+Background Correction  ON
+Background Wavelength (nm)  230.0
+Scan Samples  ON
+Start Wavelength (nm)  300.0
+Stop Wavelength (nm)  200.0
+Scan rate (nm/min)  600.00
+Baseline Correction  ON
+Method Log     :
+Method Name    :
+Date/Time stamp: 2/25/2019 3:19:05 PM
+Method Modifications:
+Sample Scan ON/OFF Changed: 2/25/2019 3:21:04 PM, Old:OFF, New:ON
+Background wl(nm) Changed: 2/25/2019 3:21:04 PM, Old:  320.0, New:  220.0
+BackGround Correction ON / OFF Changed: 2/25/2019 3:21:04 PM, Old:OFF, New:ON
+Lower Scan WaveLength Changed: 2/25/2019 3:21:04 PM, Old:  240.0, New:  200.0
+Higher Scan WaveLength Changed: 2/25/2019 3:21:04 PM, Old:  340.0, New:  300.0
+Scan Rate Setting Changed: 2/25/2019 3:21:04 PM, Old:Slow, New:Medium
+UVVIS SAT Changed: 2/25/2019 3:21:04 PM, Old:1.0000, New:0.1000
+Common SAT Changed: 2/25/2019 3:21:04 PM, Old:1.0000, New:0.1000
+Baseline on/off Changed: 2/25/2019 3:21:04 PM, Old:OFF, New:ON
+Baseline Correction Changed: 2/25/2019 3:21:04 PM, Old:0, New:1
+Use New Graph Changed: 2/25/2019 3:21:04 PM, Old:OFF, New:ON
+Background wl(nm) Changed: 2/25/2019 3:22:55 PM, Old:  220.0, New:  230.0
+Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\JP Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SC Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\Q S.aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG E.coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG Fresas.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG Fresa 2 .BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ Fresa 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SC Fresa 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 S. aureus 2Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC .BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB Fresas.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ S. aureus 2Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ S. aureus 3Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\JP Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ E. coli 2Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ Fresa 3.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC Fresa 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SM - E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SM - S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG - Levadura 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SC - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SC - Levadura 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB - Levadura 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB - Levadura 3.BDN
+End Method Modifications
+
+Sample 1,
+Sample 1
+Collection Time: 2/25/2019 4:52:56 PM
+Operator Name  :
+RNA - DNA Estimation Version 5.0.0.999
+Parameter List :
+Report time  2/25/2019 4:52:55 PM
+Method
+Batch name  C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB - Levadura 3.BDN
+Application  RNA - DNA Estimation 5.0.0.999
+Operator
+Instrument  Cary 60
+Instrument version no.  2.00
+Ordinate Mode  Abs
+Ave Time (sec)  0.1000
+Replicates  OFF
+Wavelength 1 (nm)  260.0
+Wavelength 2 (nm)  280.0
+Background Correction  ON
+Background Wavelength (nm)  230.0
+Scan Samples  ON
+Start Wavelength (nm)  300.0
+Stop Wavelength (nm)  200.0
+Scan rate (nm/min)  600.00
+Baseline Correction  ON
+Method Log     :
+Method Name    :
+Date/Time stamp: 2/25/2019 3:19:05 PM
+Method Modifications:
+Sample Scan ON/OFF Changed: 2/25/2019 3:21:04 PM, Old:OFF, New:ON
+Background wl(nm) Changed: 2/25/2019 3:21:04 PM, Old:  320.0, New:  220.0
+BackGround Correction ON / OFF Changed: 2/25/2019 3:21:04 PM, Old:OFF, New:ON
+Lower Scan WaveLength Changed: 2/25/2019 3:21:04 PM, Old:  240.0, New:  200.0
+Higher Scan WaveLength Changed: 2/25/2019 3:21:04 PM, Old:  340.0, New:  300.0
+Scan Rate Setting Changed: 2/25/2019 3:21:04 PM, Old:Slow, New:Medium
+UVVIS SAT Changed: 2/25/2019 3:21:04 PM, Old:1.0000, New:0.1000
+Common SAT Changed: 2/25/2019 3:21:04 PM, Old:1.0000, New:0.1000
+Baseline on/off Changed: 2/25/2019 3:21:04 PM, Old:OFF, New:ON
+Baseline Correction Changed: 2/25/2019 3:21:04 PM, Old:0, New:1
+Use New Graph Changed: 2/25/2019 3:21:04 PM, Old:OFF, New:ON
+Background wl(nm) Changed: 2/25/2019 3:22:55 PM, Old:  220.0, New:  230.0
+Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\JP Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SC Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\Q S.aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG E.coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG Fresas.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG Fresa 2 .BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ Fresa 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SC Fresa 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 S. aureus 2Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC .BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB Fresas.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ S. aureus 2Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ S. aureus 3Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\JP Fresa.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ E. coli 2Saved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ Fresa 3.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC Fresa 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SM - E. coliSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SM - S. aureusSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\DG - Levadura 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SC - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\G3 - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\SC - Levadura 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AGGC - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\AJ - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB - Levadura.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB - Levadura 2.BDNSaved as C:\Users\Admin\Documents\Bioquimica\201910\DNA-RNA\GB - Levadura 3.BDN
+End Method Modifications
+
