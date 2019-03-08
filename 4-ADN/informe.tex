@@ -88,6 +88,7 @@
 		\centering
 		\includegraphics[width=\linewidth]{plots}
 		\caption{Absorbancias obtenidas para las distintas muestras en funci\'on de la longitud de onda.}
+		\label{fig}
 	\end{figure*}	
 
 	\begin{table}[h]
@@ -100,12 +101,19 @@
 			\textit{F. ananassa} & 2.97 & 1.91 & 1.79 & 1.06 \\
 			\textit{E. coli} & 4.85 & 1.79 & 1.47 & 1.22 \\
 			\textit{S. aureus} & 3.50 & 2.35 & 1.79 & 1.31 \\
-			\textit{S.cerevisiae} & 1.22 & 1.83 & 0.81 & 2.27 \\
+			\textit{S. cerevisiae} & 1.22 & 1.83 & 0.81 & 2.27 \\
 			\hline
 		\end{tabular}
+		\label{tb}
 	\end{table}
 
-	Se debe tener en cuenta que en el caso del ARN de la \textit{S. cerevisiae} un contaminante com\'un que puede aumentar las lecturas de absorbancia en 280 nm es el fenol, el cual absorbe en cerca de 270 nm y pudo haber permanecido en la muestra luego del proceso de extracci\'on \cite{toni2018optimization}.
+	En la \autoref{fig} se muestran los espectros de absorción obtenidos para las cuatro muestras analizadas, en donde las bandas grises muestran las longitudes de onda de interés. Adicionalmente, en la \autoref{tb} se tienen las absorbancias para 230, 260 y 280 nm. A partir de la información obtenida en 230 nm, que la muestra de ácidos nucleicos de mayor pureza es la de \textit{S.cerevisiae}, pues la concentración de enlaces peptídicos es cerca de 3 veces inferior a las demás.
+
+	El análisis para la fresa no arrojó resultados concluyentes, pues si bien es posible calcular el radio entre la absorción en 280 nm y 260 nm, en la \autoref{fig} no se observa ninguna banda en todo el espectro por lo cual se considera que la información registrada corresponde en realidad a ruido producto de la concentración de la muestra. Para el ADN de las bacterias es posible comprobar la presencia de ADN y de proteínas, pues se espera que a mayor concentración de proteínas en la solución aumente la absorbancia en 280 nm, disminuyendo el valor de $A_{260} / A_{280}$. Esto además es confirmado al considerar la absorción a 230 nm, la cual es considerablemente alta, mostrando que si bien la extracción del ADN fue exitosa en ambas bacterias, la separación de los ácidos nucleicos y las proteínas no fue idónea.
+	
+	Finalmente, para la muestra de ARN de \textit{S. cerevisiae} se obtuvieron los mejores resultados, a pesar que se registró un valor superior a 2 para la relación $A_{260} / A_{280}$, se debe tener en cuenta un contaminante com\'un que puede aumentar las lecturas de absorbancia en 260 nm es el fenol, el cual absorbe en 270 nm y pudo haber permanecido en la muestra luego del proceso de extracci\'on \cite{toni2018optimization}.
+	
+	Respecto a la recuperación de ADN de \textit{F. ananassa} se obtuvieron cerca de 0.6342 g para una fresa, mientras que para 2.5 g de \textit{S. cerevisiae} la recuperación fue de 0.3471 g. Considerando una cuota superior para la concentración, dada por ADN puro, de doble hélice se tiene que 50 $\mu$g/mL equivalen a 1 unidad de absorbancia \cite{sambrook2001molecular}. De esta forma se estima que la concentración en la solución medida para \textit{E. coli} es 89.5 $\mu$g/mL, y para \textit{S. aureus} es 117.5 $\mu$g/mL. Para el ARN la extinción es de 40 $\mu$g/mL a 260 nm, con lo cual se obtiene para \textit{S. cerevisiae} una concentración de 73.2 $\mu$g/mL.
 \section{Conclusiones}
 	
 %----------------------------------------------------------------------------------------
