@@ -65,24 +65,30 @@
 	\subsection{Aislamiento del ARN de levadura}
 		Al disolver la levadura comercial en agua a una temperatura de 37 $^\circ$C se busca activar el metabolismo del hongo, para que esto pueda suceda es necesario que el organismo produzca ARN con el fin de iniciar la producci\'on de prote\'inas. En este sentido el control de la temperatura debe ser estricto, dado que cambios aumentos abruptos en esta, pueden llevar a que el organismo muera y cese su producci\'on del ARN que posteriormente ser\'a cuantificado.
 		
-		La adici\'on de fenol permite extraer los \'acidos nucl\'eicos de la levadura dada la polaridad del mismo. Los \'acidos nucl\'eicos debido a sus grupos fosfatos, constituyen mol\'eculas polares, las cuales se disuelven mejor en agua que en fenol. El proceso contrario sucede con las prote\'inas, las cuales tender\'an a estar en la fase org\'anica. La centrifugaci\'on de esta mezcla permite realizar la separaci\'on de fases, en donde en la fase acuosa se obtienen mayormente \'acidos nucl\'eicos y prote\'inas desnaturalizadas. La siguiente centrifugaci\'on permite aislar los \'acidos nucl\'eicos de las prote\'inas desnaturalizadas.
+		La adici\'on de fenol permite extraer los \'acidos nucleicos de la levadura dada la polaridad del mismo. Los \'acidos nucleicos debido a sus grupos fosfatos, constituyen mol\'eculas polares, las cuales se disuelven mejor en agua que en fenol. El proceso contrario sucede con las prote\'inas, las cuales tender\'an a estar en la fase org\'anica. La centrifugaci\'on de esta mezcla permite realizar la separaci\'on de fases, en donde en la fase acuosa se obtienen mayormente \'acidos nucleicos y prote\'inas desnaturalizadas. La siguiente centrifugaci\'on permite aislar los \'acidos nucleicos de las prote\'inas desnaturalizadas.
 		
-		Finalmente, y con el objetivo de precipitar los \'acidos nucl\'eicos se adiciona acetato de potasio y etanol, los cuales promueven la formaci\'on de enlaces entre los aniones de los grupos fosfatos de los \'acidos nucl\'eicos, y el ion potasio, con lo cual se neutraliza la mol\'ecula, ocasionando su precipitaci\'on.
+		Finalmente, y con el objetivo de precipitar los \'acidos nucleicos se adiciona acetato de potasio y etanol, los cuales promueven la formaci\'on de enlaces entre los aniones de los grupos fosfatos de los \'acidos nucleicos, y el ion potasio, con lo cual se neutraliza la mol\'ecula, ocasionando su precipitaci\'on.
 		
 		
 %		 If the aim of an experiment is to obtain samples of purified RNA, a pH of around 4.5 is used. Because of the negative charge on the backbone of DNA from phosphates, decreasing the pH of a solution will lead to neutralization. A pH of 4.5 has a higher concentration of H+ ions that would neutralize the negative phosphate charges and cause DNA to dissolve in the organic phase, while RNA has additional hydroxyl group in pentose sugar which allows the RNA to remain in water phase. 
 %		\cite{toni2018optimization}
 		
 	\subsection{Aislamiento del ADN de fresa}
+		Para extraer el ADN de la \textit{F. ananassa}, se hace uso de detergente, el cual tiene como objetivo disolver las membranas de las células, en un proceso conocido como lisis \cite{virgili2006genoma, puerta2005practicas}. Al disolver las proteínas se interrumpen las interacciones de la bicapa lipídica: proteína-proteína, lípido-lípido y lípido-proteína. La adición de cloruro de sodio junto con la bromelina de la piña, permite desnaturalizar y clivar las proteínas estructurales del ADN, las cuales reciben el nombre de histonas \cite{poh2011thermal}. Posteriormente y dado que los ácidos nucleicos no son solubles en alcoholes, con la adición de etanol frío, se obtiene el ADN en suspensión.
+		
+		La justificación del uso de la fresa se debe a que esta presenta poliploidia, es decir existen variedades octaploides y diploides, esto a su vez significa que algunas de ellas cuentan con ocho copias de su genoma, garantizando una alta disponibilidad de material genético para su extracción \cite{husaini2016strawberry}.
 	
-	\subsection{Cuantificaci\'on de \'acidos nucl\'eicos}
-		Se debe tener en cuenta que en el caso del ARN de la \textit{S. cerevisiae} un contaminante com\'un que puede aumentar las lecturas de absorbancia en 280 nm es el fenol, el cual absorbe en cerca de 270 nm y pudo haber permanecido en la muestra luego del proceso de extracci\'on \cite{toni2018optimization}.
+	\subsection{Aislamiento de ADN genómico de bacterias}
+		En el caso de las bacterias, la extracción del ADN se realiza usando una desnaturalización térmica a temperatura de ebullición, de las histonas.
+	
+	\subsection{Cuantificaci\'on de \'acidos nucleicos}
+		Una de las formas más usadas actualmente para determinar de forma rápida la cantidad y pureza de los ácidos nucleicos es usando espectroscopía UV-vis. En el rango de longitudes de onda de 215 a 230 nm se encuentra la absorción de los enlaces peptídicos, un poco debajo de 260 nm se encuentra la absorción de las purinas, mientras que las pirimidinas absorben arriba de 260 nm, siendo ambas las bases nitrogenadas constituyentes de los ácidos nucleicos. Finalmente en 280 nm se encuentran las absorciones de los aminoácidos aromáticos \cite{sambrook2001molecular}.
 		
 	\begin{figure*}[h]
 		\centering
 		\includegraphics[width=\linewidth]{plots}
 		\caption{Absorbancias obtenidas para las distintas muestras en funci\'on de la longitud de onda.}
-	\end{figure*}
+	\end{figure*}	
 
 	\begin{table}[h]
 		\centering
@@ -98,7 +104,8 @@
 			\hline
 		\end{tabular}
 	\end{table}
-	\cite{sambrook2001molecular}
+
+	Se debe tener en cuenta que en el caso del ARN de la \textit{S. cerevisiae} un contaminante com\'un que puede aumentar las lecturas de absorbancia en 280 nm es el fenol, el cual absorbe en cerca de 270 nm y pudo haber permanecido en la muestra luego del proceso de extracci\'on \cite{toni2018optimization}.
 \section{Conclusiones}
 	
 %----------------------------------------------------------------------------------------
