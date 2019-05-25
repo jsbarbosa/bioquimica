@@ -1,0 +1,92 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[numbers]{natbib}
+\usepackage[colorlinks, citecolor = blue, linkcolor = blue]{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{sectsty}
+\usepackage{multicol}
+
+%\chapterfont{\color{blue}}  % sets colour of chapters
+\sectionfont{\color{blue}}
+\subsectionfont{\color{blue}}
+\subsubsectionfont{\color{blue}}
+\paragraphfont{\color{blue}}
+
+
+\title{\color{blue} \scshape{GAPDH\\ enzima recombinante}}
+\author{Juan Barbosa - 201325901}
+
+\newcommand{\enzima}{\textbf{GAPDH}}
+
+\begin{document}
+	\maketitle
+%	\dominitoc
+	\begin{multicols}{2}
+		\footnotesize
+		\tableofcontents
+	\end{multicols}
+
+	\section{C\'omo extraer el DNA}
+		Dado que la \enzima{} tiene un origen humano, la muestra de DNA ser\'ia obtenida a partir de sangre humana. Con el objetivo de preservar la muestra, hasta el momento de la extracci\'on del material gen\'etico, a la sangre se le agregar\'ia EDTA como anticoagulante, y ser\'a conservada a 4 $^\circ$C \cite{m2011human, puregeneBook}.
+		\subsection{M\'etodo de extracci\'on}
+			Considerando una muestra de 300 $u$L de sangre, y usando el kit \textit{Gentra Puregene Blood Kit} para extraer el DNA, los pasos necesarios son los siguientes:
+			\begin{enumerate}[label=\color{blue}\theenumi]
+				\item Agregar 0.9 mL de la soluci\'on de lisis RBC (\textit{Red Blood Cells}) a un falcon
+				\item Agregar 300 $\mu$L de la muestra de sangre al mismo falcon y mezclar 10 veces por inversi\'on
+				\item Incubar la mezcla a 25 $^\circ$C por 1 minutos
+				\item Centrifugar a 13000 x por 20 segundos para precipitar las c\'elulas blancas
+				\item Retirar el sobrenadante dejando 10 $\mu$L en el falcon
+				\item Agitar el falcon para resuspender el residuo s\'olido
+				\item Agregar 300 $\mu$L de la soluci\'on de lisis celular, y agitar
+				\item Agregar 1.5 $\mu$L de \textit{RNaseA Solution}, mezclar y encubar a 37 $^\circ$C por 15 minutos
+				\item Agregar 0.1 mL de la soluci\'on para la precipitaci\'on de prote\'inas y agitar
+				\item Centrifugar por 1 minuto a 13000 x
+				\item Pipetear 300 $\mu$L de alcohol isoprop\'ilico a un tubo de 1.5 mL, y agregar el sobrenadante del paso anterior, y mezclar hasta observar el DNA
+				\item Centrifugar por 1 minuto a 13000 x
+				\item Descartar el sobrenadante
+				\item Agregar 300 $\mu$L de etanol al 70 \% al contenedor del DNA previamente extra\'ido
+				\item Centrifugar por 1 minuto a 13000 x
+				\item Descartar el sobrenadante y secar el DNA con una corriente de aire por 5 minutos
+				\item Agregar 100 $\mu$L de la soluci\'on \textit{DNA Hydratation Solution} y agitar
+				\item Incubar por 5 minutos a 65 $^\circ$C para disolver el DNA
+			\end{enumerate}
+			
+			\begin{flushright}
+				Procedimiento reportado por \citeauthor{puregeneBook}
+			\end{flushright}
+		
+		\subsection{Caracterizaci\'on}
+			La determinaci\'on de la pureza del DNA extra\'ido se puede cuantificar usando espectroscop\'ia UV-Vis. Depositando una peque\~na cantidad del DNA extra\'ido en una celda de cuarzo, cuya concentraci\'on sea cercana a 20 $\mu$g/mL y midiendo el coeficiente A$_{260}$/A$_{280}$ y A$_{260}$/A$_{230}$, donde A$_\lambda$ corresponde con las absorbancias en $\lambda$ nm \cite{olson2012dna}.
+			\paragraph{A$_{260}$/A$_{280}$:} Un valor cercano a 1.8 ser\'ia indicativo de un DNA puro \cite{wilfinger1997effect, green2012molecular}.
+			\begin{itemize}
+				\item Desviaciones positivas a este valor estar\'ian asociadas a contaminaci\'on con RNA
+				\item Desviaciones negativas estar\'ian asociadas con la presencia de prote\'inas
+			\end{itemize}
+			\paragraph{A$_{260}$/A$_{230}$:} Los valores esperados se encuentran en el rango de 2.0 a 2.2 \cite{green2012molecular}.
+			
+	\section{Amplificaci\'on del gen}
+		\subsection{PCR}
+			\subsubsection{Elecci\'on de primers}
+		\subsection{Purificaci\'on}
+		\subsection{Secuenciaci\'on}
+	\section{Selecci\'on del vector (clonaci\'on y/o expresi\'on)}
+	\section{Seleccionar enzimas de restricci\'on}
+		\subsection{New England Biolabs (Pl\'asmido)}
+		\subsection{New England Biolabs (Gen)}
+	\section{Ligar gen + pl\'asmido}
+	\section{Transformarlo}
+		Generar muchas r\'eplicas del pl\'asmido (procariota o eucariota)
+	\section{Extraer el pl\'asmido recombinante}
+	\section{Expresi\'on de la prote\'ina X}
+	\section{Extracci\'on y purificaci\'on de la prote\'ina X}
+	\section{An\'alisis estructural de la prote\'ina}
+		\subsection{Estructura secundaria}
+		\subsection{Modificaciones postraduccionales}
+		\subsection{Estructura cuaternaria}
+	\bibliography{bibliography}
+%	\bibliographystyle{unsrt}
+	\bibliographystyle{plainnat}
+\end{document}
